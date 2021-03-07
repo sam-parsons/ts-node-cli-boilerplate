@@ -1,0 +1,23 @@
+{
+  "name": "node-mail-merge",
+  "version": "0.0.0",
+  "description": "coming soon",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sam-parsons/node-mail-merge.git"
+  },
+  "author": "Sam Parsons <samparsons269@gmail.com> (http://sam-parsons.github.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sam-parsons/node-mail-merge/issues"
+  },
+  "homepage": "https://github.com/sam-parsons/node-mail-merge#readme"
+}
