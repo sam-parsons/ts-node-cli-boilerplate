@@ -1,5 +1,5 @@
-const number: Number = 0;
+const number = 0;
 
-export default text => {
+export default (text) => {
   return text;
 };

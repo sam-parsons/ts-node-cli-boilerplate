@@ -1,17 +1,17 @@
 #!/usr/bin/env node
 
-const commander = require('commander');
-const getStdin = require('get-stdin');
-const { readFileSync, writeFileSync } = require('fs');
-const lib = require('../dist/index').default;
+// const commander = require('commander');
+// const getStdin = require('get-stdin');
+// const { readFileSync, writeFileSync } = require('fs');
+// const lib = require('../dist/index').default;
 
-const { version } = require('../package.json');
+// const { version } = require('../package.json');
 
-commander
-  .version(version)
-  .usage('[options] <file ...>')
-  //.option('--some-option', 'This is an example of an option')
-  .parse(process.argv);
+// commander
+//   .version(version)
+//   .usage('[options] <file ...>')
+//.option('--some-option', 'This is an example of an option')
+// .parse(process.argv);
 
 // const { args: files } = commander;
 
