@@ -12,7 +12,7 @@
     "build": "webpack",
     "test": "jest",
     "test:watch": "nodemon --exec \"npm test\" --watch lib --watch __tests__",
-    "lint": "eslint lib __tests__ webpack.*",
+    "lint": "eslint lib __tests__ bin",
     "prepush": "npm test && npm run lint",
     "preversion": "npm test",
     "postversion": "git push && git push --tags && npm publish",
