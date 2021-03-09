@@ -1,7 +1,7 @@
 {
-  "name": "node-mail-merge",
-  "version": "0.0.6",
-  "description": "mass mail from a csv",
+  "name": "ts-node-cli-boilerplate",
+  "version": "0.0.0",
+  "description": "starter for Node CLIs with TS",
   "main": "dist/index.js",
   "bin": "bin/cli.js",
   "directories": {
@@ -25,14 +25,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sam-parsons/node-mail-merge.git"
+    "url": "git+https://github.com/sam-parsons/ts-node-cli-boilerplate.git"
   },
   "author": "Sam Parsons <samparsons269@gmail.com> (http://sam-parsons.github.io/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/sam-parsons/node-mail-merge/issues"
+    "url": "https://github.com/sam-parsons/ts-node-cli-boilerplate/issues"
   },
-  "homepage": "https://github.com/sam-parsons/node-mail-merge#readme",
+  "homepage": "https://github.com/sam-parsons/ts-node-cli-boilerplate#readme",
   "devDependencies": {
     "@babel/core": "7.13.10",
     "@babel/preset-env": "7.13.10",
