@@ -18,5 +18,8 @@ module.exports = {
   },
   resolve: {
     modules: ['node_modules']
+  },
+  optimization: {
+    minimize: false
   }
 };
