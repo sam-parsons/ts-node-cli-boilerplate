@@ -1,22 +1,22 @@
-const path = require("path");
+import path from 'path';
 
 module.exports = {
-  entry: "./lib/index.ts",
-  mode: "production",
+  entry: './lib/index.ts',
+  mode: 'production',
   output: {
-    path: path.join(__dirname, "dist"),
-    filename: "index.js",
-    libraryTarget: "commonjs"
+    path: path.join(__dirname, 'dist'),
+    filename: 'index.js',
+    libraryTarget: 'commonjs'
   },
   module: {
     rules: [
       {
         test: /\.(ts|js)x?$/,
-        use: "babel-loader"
+        use: 'babel-loader'
       }
     ]
   },
   resolve: {
-    modules: ["node_modules"]
+    modules: ['node_modules']
   }
 };
