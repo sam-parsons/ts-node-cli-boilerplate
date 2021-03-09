@@ -1,7 +1,7 @@
 const path = require("path");
 
 module.exports = {
-  entry: "./lib/index.js",
+  entry: "./lib/index.ts",
   mode: "production",
   output: {
     path: path.join(__dirname, "dist"),
@@ -11,7 +11,7 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.js$/,
+        test: /\.(ts|js)x?$/,
         use: "babel-loader"
       }
     ]
