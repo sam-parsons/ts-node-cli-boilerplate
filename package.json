@@ -1,6 +1,6 @@
 {
   "name": "node-mail-merge",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "mass mail from a csv",
   "main": "dist/index.js",
   "bin": "bin/cli.js",
@@ -8,7 +8,7 @@
     "lib": "lib",
     "__tests__": "__tests__"
   },
-  "files":[
+  "files": [
     "package.json",
     "dist/",
     "bin/",
