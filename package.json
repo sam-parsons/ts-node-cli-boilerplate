@@ -1,6 +1,6 @@
 {
   "name": "ts-node-cli-boilerplate",
-  "version": "0.0.6",
+  "version": "0.1.0",
   "description": "starter for Node CLIs with TS",
   "main": "dist/index.js",
   "bin": "bin/cli.js",
