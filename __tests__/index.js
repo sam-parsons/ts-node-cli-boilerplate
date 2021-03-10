@@ -1,5 +1,5 @@
-import src from '../src';
+import func from '../src';
 
 test('first', () => {
-  expect(lib('text')).toEqual('text');
+  expect(func('text')).toEqual('text');
 });
