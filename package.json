@@ -4,10 +4,6 @@
   "description": "starter for Node CLIs with TS",
   "main": "dist/index.js",
   "bin": "bin/cli.js",
-  "directories": {
-    "lib": "lib",
-    "__tests__": "__tests__"
-  },
   "files": [
     "package.json",
     "dist/",
@@ -17,8 +13,8 @@
   "scripts": {
     "build": "tsc",
     "test": "jest",
-    "test:watch": "nodemon --exec \"npm test\" --watch lib --watch __tests__",
-    "lint": "eslint lib __tests__ bin",
+    "test:watch": "nodemon --exec \"npm test\" --watch src --watch __tests__",
+    "lint": "eslint src __tests__ bin",
     "preversion": "npm run lint && npm run build && npm test",
     "postversion": "git push && git push --tags && npm publish",
     "exec": "./bin/cli.js"
