@@ -1,6 +1,6 @@
 # ts-node-cli-boilerplate
 
-> Boilerplate to kickstart creating a Node.js command-line interface with TypeScript.
+> Boilerplate to kickstart creating a Node.js command-line interface with TypeScript and Jest.
 
 ## Getting started
 
@@ -16,18 +16,21 @@ $ curl -fsSL https://github.com/sam-parsons/ts-node-cli-boilerplate/archive/main
 
 development
 
-```
+```json
 // creates sym-link in global node_modules folder,
 // pointing to the local repo
 $ npm link
 
-// run typsescript compilation
+// we can now immediately invoke the package globally
+$ your-package arg1 arg2
+
+// run typsescript compilation to update global command
 $ npm run build
 ```
 
 dependency
 
-```
+```json
 $ npm install --global your-package
 
 $ your-package arg1 arg2
