@@ -24,8 +24,11 @@ $ npm link
 // we can now immediately invoke the package globally
 $ your-package arg1 arg2
 
-// run typsescript compilation to update global command
+// run typescript compilation to update global command
 $ npm run build
+// -- OR --
+// or run start script to watch file changes
+$ npm start
 ```
 
 dependency

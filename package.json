@@ -12,6 +12,7 @@
   ],
   "scripts": {
     "build": "tsc",
+    "start": "tsc --watch",
     "test": "jest",
     "test:watch": "nodemon --exec \"npm test\" --watch src --watch __tests__",
     "lint": "eslint src __tests__ bin",
