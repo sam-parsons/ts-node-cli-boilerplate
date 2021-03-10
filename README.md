@@ -1,6 +1,6 @@
 # ts-node-cli-boilerplate
 
-> Boilerplate to kickstart creating a Node.js command-line interface with TypeScript and Jest.
+> Boilerplate for quickly creating a Node.js CLI with TypeScript, Jest, and CI with Github Actions.
 
 ## Getting started
 
