@@ -14,9 +14,9 @@ $ curl -fsSL https://github.com/sam-parsons/ts-node-cli-boilerplate/archive/main
 
 ## Usage
 
-development
+local development
 
-```json
+```bash
 // creates sym-link in global node_modules folder,
 // pointing to the local repo
 $ npm link
@@ -31,9 +31,9 @@ $ npm run build
 $ npm start
 ```
 
-dependency
+as a remote dependency (after publishing package on NPM)
 
-```json
+```bash
 $ npm install --global your-package
 
 $ your-package arg1 arg2
